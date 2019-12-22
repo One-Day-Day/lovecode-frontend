@@ -36,9 +36,9 @@ export default class RegisterContainer extends React.Component {
                 <button>注册</button>
             </div>
             <div className={styles.right}>
-                <Sticker height='265' align='left' title='关于我们' text='abc efg ddd babalalalala'
+                <Sticker height='265' align='right' title='关于我们' text='abc efg ddd babalalalala'
                          image={loginImage}/>
-                <Sticker height='265' align='left' title='超多问题'
+                <Sticker height='265' align='right' title='超多问题'
                          text='lovecode系统中有8个大类别，共计超过1000个题目，题目分类能够帮助用户高效的针对某一项技能进行训练'
                          image={loginImage}/>
             </div>
