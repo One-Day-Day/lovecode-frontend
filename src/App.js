@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar';
+import RegisterContainer from './container/register';
 
 import './App.css';
 
@@ -8,8 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div id='content'>
-          <div className='side-bar'></div>
-          <div className="main-content"></div>
+          <RegisterContainer/>
       </div>
     </div>
   );

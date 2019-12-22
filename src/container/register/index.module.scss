@@ -1,0 +1,86 @@
+.login {
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.left {
+  float: left;
+  margin: 45px 25px 0;
+  width: 300px;
+}
+
+.center {
+  float: left;
+  margin: 25px 0 0;
+  width: 270px;
+
+  .formItem {
+    label {
+      color: #454545;
+      display: block;
+      font-size: 10px;
+      margin: 0 0 5px;
+      text-indent: 5px;
+      text-transform: uppercase;
+    }
+
+    input {
+      color: #333;
+      background: #fff;
+      border: 1px solid #BBB;
+      border-radius: 3px;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,.075);
+      box-sizing: border-box;
+      margin: 0 0 15px;
+      min-height: 34px;
+      padding: 7px 8px;
+      vertical-align: middle;
+      width: 100%;
+      outline: 0;
+    }
+  }
+
+  .title {
+    color: #ef4130;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+
+  .logo {
+    margin-top: 45px;
+    width: 100%;
+  }
+
+  button {
+    background: #adce07;
+    border: 1px solid #8fa813;
+    border-bottom: #8fa813 solid 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    height: 33px;
+    transition: 0.7s;
+    width: 100%;
+    outline: 0;
+  }
+
+  button:hover {
+    background-color: #9EBB0A;
+  }
+}
+
+.right {
+  float: left;
+  margin: 45px 25px 0;
+  width: 300px;
+}
+
+.left, .center, .right {
+}
