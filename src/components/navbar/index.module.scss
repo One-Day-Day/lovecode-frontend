@@ -1,0 +1,35 @@
+.navbar {
+  height: 50px;
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #454545;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+}
+
+.links {
+  width: 980px;
+  margin: 0 auto;
+  list-style: none;
+  overflow: hidden;
+  padding: 18px 14px 20px 0;
+
+  li {
+    float: left;
+  }
+
+  .link {
+    padding: 5px 7px;
+    margin: 0 3px;
+    border: 1px solid #bbbbbb;
+    background-color: #f3f3f3;
+    text-decoration: none rgb(69, 69, 69);
+    border-radius: 3px;
+    color: inherit;
+    line-height: 10px;
+    height: 10px;
+    font-size: 10px;
+  }
+}
